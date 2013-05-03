@@ -1,0 +1,3 @@
+﻿package app.view.events{		////////////////////////////////////////////////////////////////////	//	//	This is a generic event class used in component to mediator communication	//	The evnt typs are mapped to the ApplicationFacade constants	//	That way everything flows through the facade like it is supposed to...	//	////////////////////////////////////////////////////////////////////		
+
+import flash.events.Event;	public class GenericEvent extends Event	{				public var data:*;				public function GenericEvent( type:String, data:* )		{			super( type, true );			this.data = data;		}	}}

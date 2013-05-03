@@ -1,0 +1,1 @@
+package com.bumpslide.preloader {    /**     * Preloadable content interface     *      * @author David Knape     */    public interface IPreloadable {    	function start() : void;    }}
